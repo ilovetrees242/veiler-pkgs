@@ -1,0 +1,12 @@
+# MPFR ( Multi Precision For Real ( i know this isnt correct but why not ) )
+MOONPKGNAME="mpfr"
+MOONPKGVERSION="4.2.2"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://mirrors.hopbox.net/gnu/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="ea7b119ee4b88d9e97f171e793f8d44b3bbb24ea42a848c805b660542c743ceb"
+DESC="Contains math functions for multi precision math"
+INSTALLEDSIZE=2728150
+WODOCINSTALLEDSIZE=1899131
+DOWNLOADSIZE=2251590
+REQDSKSPC=17697707

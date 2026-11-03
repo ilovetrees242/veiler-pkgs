@@ -1,0 +1,11 @@
+# Kmod ( Kernel modifier )
+MOONPKGNAME="kmod"
+MOONPKGVERSION="34.2"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://www.kernel.org/pub/linux/utils/kernel/$MOONPKGNAME/$MOONPKG$EXTENSION"
+DESC="Cotains utilites for loading kernel modules from userspace"
+INSTALLEDSIZE=402215
+WODOCINSTALLEDSIZE=402215
+DOWNLOADSIZE=443748
+REQDSKSPC=6455092

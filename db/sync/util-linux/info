@@ -1,0 +1,12 @@
+# Which
+MOONPKGNAME="util-linux"
+MOONPKGVERSION="2.42"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://git.kernel.org/pub/scm/utils/$MOONPKGNAME/$MOONPKGNAME.git/snapshot/$MOONPKG$EXTENSION"
+SHA256SUM="9031fd5cef090928b6a38e4a6e48d114aece30a1f3bf79b47fb273dcef2abc18"
+DESC="The util-linux package contains various tools and utilities which are used to perform operating system level actions, like listing block devices, killing a process, changing a filesystem, etc."
+INSTALLEDSIZE=43374556
+WODOCINSTALLEDSIZE=43374556
+DOWNLOADSIZE=17932631
+REQDSKSPC=1789267233

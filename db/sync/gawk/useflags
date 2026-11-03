@@ -1,0 +1,4 @@
+-RPATH --disable-rpath
+-NLS --disable-nls
+-MPFR --disable-mpfr
++GNULD --with-gnu-ld

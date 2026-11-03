@@ -1,0 +1,5 @@
++EDITLINE --enable-editline
++DEBUG --debug
++VALGRIND --enable-valgrind
+-HISTORY --disabl-history
+-NLS --disable-nls

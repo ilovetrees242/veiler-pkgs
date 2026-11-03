@@ -1,0 +1,11 @@
+# Openssl
+MOONPKGNAME="openssl"
+MOONPKGVERSION="3.6.1"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://github.com/$MOONPKGNAME/$MOONPKGNAME/releases/download/$MOONPKG/$MOONPKG$EXTENSION"
+DESC="Contains cryptographic functions. It is used by things like https and ssh to hash credentials and data to prevent cyber attacks"
+INSTALLEDSIZE=57372011
+WODOCINSTALLEDSIZE=27049245
+DOWNLOADSIZE=54891951
+REQDSKSPC=973389159

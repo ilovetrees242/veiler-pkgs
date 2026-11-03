@@ -1,0 +1,12 @@
+# Pkgconf ( Package config )
+MOONPKGNAME="pkgconf"
+MOONPKGVERSION="2.5.1"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://distfiles.ariadne.space/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="feb7b15fc95393f8ebff754f5808c4ee8e70244e268001cc4b369f24efdb3640"
+DESC="Pkgconf contains a tool for passing library and include paths to compilers during the package installation"
+INSTALLEDSIZE=546024
+WODOCINSTALLEDSIZE=501667
+DOWNLOADSIZE=328064
+REQDSKSPC=4095856

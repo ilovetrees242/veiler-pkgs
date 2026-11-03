@@ -1,0 +1,15 @@
+/usr/lib/security/pam_cap.so
+/usr/lib/libcap.so.2.77
+/usr/lib/libpsx.so
+/usr/lib/libpsx.so.2
+/usr/lib/libcap.so.2
+/usr/lib/pkgconfig/libcap.pc
+/usr/lib/pkgconfig/libpsx.pc
+/usr/lib/libpsx.so.2.77
+/usr/lib/libcap.so
+/usr/sbin/getpcaps
+/usr/sbin/capsh
+/usr/sbin/getcap
+/usr/sbin/setcap
+/usr/include/sys/capability.h
+/usr/include/sys/psx_syscall.h

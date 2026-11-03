@@ -1,0 +1,6 @@
++DBUS -Ddbus=true
++GNUTLS -Dgnutls=true
++PAM -Dpam=true
++POLKIT -Dpolkit=true
++SELINUX -Dselinux=true
+-SELINUX -Dselinux=false

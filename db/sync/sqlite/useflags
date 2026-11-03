@@ -1,0 +1,3 @@
+-READLINE --disable-readline
++READLINE --enable-readline
++DEBUG --debug

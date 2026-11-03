@@ -1,0 +1,8 @@
++DEBUG --enable-debugger
++STATIC --enable-static-link
++HISTORY --enable-history
++CURSES --with-curses
++GNULD --with-gnu-ld
++READLINE --enable-readline
+-NLS --disable-nls
+-RPATH --disable-rpath

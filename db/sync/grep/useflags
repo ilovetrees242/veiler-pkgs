@@ -1,0 +1,3 @@
+-RPATH --disable-rpath
+-NLS --disable-nls
++GNULD --with-gnu-ld

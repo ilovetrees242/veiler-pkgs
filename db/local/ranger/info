@@ -1,0 +1,11 @@
+# Ranger
+MOONPKGNAME="ranger"
+MOONPKGVERSION="1.9.4"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://github.com/ranger/ranger/archive/refs/tags/v$MOONPKGVERSION$EXTENSION"
+DESC="Ranger is a command line file manager with VI key binding"
+INSTALLEDSIZE=2693917
+WODOCINSTALLEDSIZE=2400683
+DOWNLOADSIZE=2801652
+REQDSKSPC=2257279

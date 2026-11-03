@@ -1,0 +1,11 @@
+# Btop 
+MOONPKGNAME="btop"
+MOONPKGVERSION="1.4.7"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://github.com/aristocratos/$MOONPKGNAME/archive/refs/tags/v$MOONPKGVERSION$EXTENSION"
+DESC="A high interactive resource monitor with cool and futuristic interface, and features. C++ adaptation of bpytop"
+INSTALLEDSIZE=2448328
+WODOCINSTALLEDSIZE=2395516
+DOWNLOADSIZE=1280005
+REQDSKSPC=35285856

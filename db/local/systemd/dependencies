@@ -1,0 +1,11 @@
+acl
+dbus
+kbd
+kmod
+libelf
+libxcrypt
+lz4
+openssl
+pcre2
+util-linux
+xz

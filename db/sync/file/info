@@ -1,0 +1,12 @@
+# File
+MOONPKGNAME="file"
+MOONPKGVERSION="5.47"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://astron.com/pub/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="cc3c2d94603c6b3fa8dfcb14fb16f4cfc156b36be05dd2be16ac5cc7b2a0f0eb"
+DESC="File utility provides programs which can be used to identify file-type of a file using magick bytes"
+INSTALLEDSIZE=11511050
+WODOCINSTALLEDSIZE=11449950
+DOWNLOADSIZE=2676776
+REQDSKSPC=22140273

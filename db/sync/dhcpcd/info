@@ -1,0 +1,12 @@
+# dhcpcd ( Dynamic Host Configuration Protocol Cache Daemon )
+MOONPKGNAME="dhcpcd"
+MOONPKGVERSION="10.5.2"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://github.com/NetworkConfiguration/$MOONPKGNAME/releases/download/v$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="9db96cd8bf79c7b08f00a4bf74af848f0ad2d0d4796df5f3391d1b9baaeb1e2a"
+DESC="Implementation of DHCP client specified in RFC2131. DHCP assigns address to your computer for connecting to a network"
+INSTALLEDSIZE=514564
+WODOCINSTALLEDSIZE=446049
+DOWNLOADSIZE=289084
+REQDSKSPC=3017834

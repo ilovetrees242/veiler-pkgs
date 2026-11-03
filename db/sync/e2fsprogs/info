@@ -1,0 +1,12 @@
+# e2fsprogs ( ext 2 filesystem programs )
+MOONPKGNAME="e2fsprogs"
+MOONPKGVERSION="1.47.3"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://downloads.sourceforge.net/project/$MOONPKGNAME/$MOONPKGNAME/v$MOONPKGVERSION/$MOONPKG$EXTENSION"
+SHA256SUM="22d97ce4006d4432d278a886c22b20754a38d6fcc1f7f57687ba3b07cba5389d"
+DESC="Contains filesystem utilities for handling the ext2 filesystem. Can also support ext3 and ext4"
+INSTALLEDSIZE=11249901
+WODOCINSTALLEDSIZE=11027504
+DOWNLOADSIZE=10087057
+REQDSKSPC=108562781

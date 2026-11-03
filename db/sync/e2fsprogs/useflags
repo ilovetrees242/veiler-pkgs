@@ -1,0 +1,4 @@
+-NLS --disable-nls
+-RPATH --disable-rpath
++GNULD --with-gnu-ld
++LTO --enable-lto

@@ -1,0 +1,12 @@
+# ACL ( Access Control Lists )
+MOONPKGNAME="acl"
+MOONPKGVERSION="2.3.2"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://download.savannah.gnu.org/releases/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="db701ae458c9b57edad1a521ce5cc743fc4e22117a17c54d93b90b9496ed1074"
+DESC="Access control lists provides control lists, which are used for management of access rights of files and directories"
+INSTALLEDSIZE=711416
+WODOCINSTALLEDSIZE=488801
+DOWNLOADSIZE=371680
+REQDSKSPC=4942938

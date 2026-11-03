@@ -1,0 +1,9 @@
+bzip2
+pkgconf
+expat
+gdbm
+libffi
+libxcrypt
+zlib
+zstd
+tzdata

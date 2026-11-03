@@ -1,0 +1,11 @@
+# DBus ( Daemon bus )
+MOONPKGNAME="dbus"
+MOONPKGVERSION="1.16.2"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://dbus.freedesktop.org/releases/$MOONPKGNAME/$MOONPKG$EXTENSION"
+DESC="DBus is a message bus system for allowing efficient IPC between processes"
+INSTALLEDSIZE=1984602
+WODOCINSTALLEDSIZE=1221717
+DOWNLOADSIZE=1115644
+REQDSKSPC=20751591

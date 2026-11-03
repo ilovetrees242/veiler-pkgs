@@ -1,0 +1,12 @@
+# Attr ( Attributes )
+MOONPKGNAME="attr"
+MOONPKGVERSION="2.5.2"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://download.savannah.gnu.org/releases/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="f465ed5335dd8f7fa2be120e68cb546c335ee3d5a5baec91fe4b8bc68ad130bf"
+DESC="Attr package gives you extended file attributes, beyond normal file attributes"
+INSTALLEDSIZE=378862
+WODOCINSTALLEDSIZE=278140
+DOWNLOADSIZE=492539
+REQDSKSPC=3773222

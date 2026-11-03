@@ -1,0 +1,5 @@
++LTO --enable-lto
+-BOOTSTRAP --disable-bootstrap
++BOOTSTRAP --enable-bootstrap
+-MULTILIB --disable-multilib
+-NLS --disable-nls

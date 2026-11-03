@@ -1,0 +1,5 @@
+-ZLIB --disable-zlib
+-XZ --disable-xzlib
+-ZSTD --disable-zstdlib
+-BZIP2 --disable-bzlib
++GNULD --with-gnu-ld

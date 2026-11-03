@@ -1,0 +1,11 @@
+# PCRE ( Perl compatible regular expressions )
+MOONPKGNAME="pcre2"
+MOONPKGVERSION="10.47"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.bz2"
+SRC="https://github.com/PCRE2Project/$MOONPKGNAME/releases/download/$MOONPKG/$MOONPKG$EXTENSION"
+DESC="Contains new generation of perl compatible regular expression libraries"
+INSTALLEDSIZE=5507749
+WODOCINSTALLEDSIZE=2529265
+DOWNLOADSIZE=2145789
+REQDSKSPC=22797600

@@ -1,0 +1,12 @@
+# Sed ( Streamline editor )
+MOONPKGNAME="sed"
+MOONPKGVERSION="4.9"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://mirrors.hopbox.net/gnu/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="7f5c521315ba1fd46fcc0598bf559ade415cf71153be318cdd2c87c63ec7a3fd"
+DESC="Sed is an editor which allows you to edit files from the command line efficiently"
+INSTALLEDSIZE=1725262
+WODOCINSTALLEDSIZE=1088350
+DOWNLOADSIZE=1397092
+REQDSKSPC=16539334

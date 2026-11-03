@@ -1,0 +1,11 @@
+# linux-pam ( Linux Pluggable Authentication Module ) 
+MOONPKGNAME="linux-pam"
+MOONPKGVERSION="1.7.2"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://github.com/$MOONPKGNAME/$MOONPKGNAME/releases/download/v$MOONPKGVERSION/Linux-PAM-$MOONPKGVERSION$EXTENSION"
+DESC="Contains pluggable authentication modules which can be used for authentication anywhere"
+INSTALLEDSIZE=4130341
+WODOCINSTALLEDSIZE=1864454
+DOWNLOADSIZE=1023204
+REQDSKSPC=15206097

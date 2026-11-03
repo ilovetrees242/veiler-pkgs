@@ -1,0 +1,12 @@
+# Tzdata ( Time Zone Data )
+MOONPKGNAME="tzdata"
+MOONPKGVERSION="2026c"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://www.iana.org/time-zones/repository/releases/$MOONPKGNAME$MOONPKGVERSION$EXTENSION"
+SHA256SUM="46d28450c1100b28506a411eb03a2be556dce4aaddbf189690e7d824c38126f4"
+DESC="TZData contains timezone files which contain time information for timezones."
+INSTALLEDSIZE=758471
+WODOCINSTALLEDSIZE=758471
+DOWNLOADSIZE=475694
+REQDSKSPC=1874976

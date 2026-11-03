@@ -1,0 +1,6 @@
+acl
+attr
+glibc
+libgcc
+ncurses
+libstdc++

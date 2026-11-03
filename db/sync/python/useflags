@@ -1,0 +1,4 @@
++VALGRIND --with-valgrind
++DEBUG --with-pydebug
++SAFETY --enable-safety
++OPTIMIZATIONS --enable-optimizations

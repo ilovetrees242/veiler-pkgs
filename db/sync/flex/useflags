@@ -1,0 +1,3 @@
++GNULD --with-gnu-ld
+-BOOTSTRAP --disable-bootstrap
+-NLS --disable-nls

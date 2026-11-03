@@ -1,0 +1,3 @@
++GUILE --with-guile
+-NLS --disable-nls
+-RPATH --disable-rpath

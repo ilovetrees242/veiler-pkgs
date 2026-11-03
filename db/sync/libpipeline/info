@@ -1,0 +1,12 @@
+# Libpipeline ( Pipeline library )
+MOONPKGNAME="libpipeline"
+MOONPKGVERSION="1.5.8"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://download.savannah.gnu.org/releases/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="6eebb8b7a8899f4a08c0ac698dccc6ca577d4f41d70201a929917bee9c896660"
+DESC="Libpipeline contains library for manipulating pipelines in an efficient way"
+INSTALLEDSIZE=307096
+WODOCINSTALLEDSIZE=281238
+DOWNLOADSIZE=1070254
+REQDSKSPC=9847450

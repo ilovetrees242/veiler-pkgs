@@ -1,0 +1,7 @@
++SYSTEMD --with-systemd
++ELOGIND --with-elogind
++GNULD --with-gnu-ld
++SELINUX --enable-libselinux
+-NCURSES --without-ncurses
+-NLS --disable-nls
+-RPATH --disable-rpath

@@ -1,0 +1,3 @@
++LTO --enable-lto
+-MULTILIB --disable-multilib
+-NLS --disable-nls

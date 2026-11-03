@@ -1,0 +1,11 @@
+# Gzip ( GNU Zip )
+MOONPKGNAME="gzip"
+MOONPKGVERSION="1.14"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://mirrors.hopbox.net/gnu/$MOONPKGNAME/$MOONPKG$EXTENSION"
+DESC="Contains gnu implementation for compressing and decompressing files"
+INSTALLEDSIZE=503057
+WODOCINSTALLEDSIZE=425928
+DOWNLOADSIZE=1369513
+REQDSKSPC=

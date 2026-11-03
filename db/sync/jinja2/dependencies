@@ -1,0 +1,5 @@
+python
+flit-core
+markupsafe
+wheel
+setuptools

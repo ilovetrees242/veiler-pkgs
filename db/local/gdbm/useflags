@@ -1,0 +1,5 @@
+-NLS --disable-nls
++GNULD --with-gnu-ld
+-READLINE --without-readline
++DEBUG --enable-debug
++DEBUG --enable-gdbmtool-debug

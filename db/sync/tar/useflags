@@ -1,0 +1,6 @@
+-ACL --disable-acl
+-ATTR --without-xattrs
+-NLS --disable-nls
+-RPATH --disable-rpath
+-SELINUX --without-selinux
++GNULD --with-gnu-ld

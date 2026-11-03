@@ -1,0 +1,5 @@
+-READLINE --without-readline
+-NCURSES --without-ncursesw
+-ZLIB --without-libz
+-RPATH --disable-rpath
+-NLS --disable-nls

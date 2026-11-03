@@ -1,0 +1,12 @@
+# Grep ( GNU Regular Expression Print )
+MOONPKGNAME="grep"
+MOONPKGVERSION="3.12"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://mirrors.hopbox.net/gnu/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="d5a932b23d1e775021280946c13fdfd46a2bf95f2617761c2cd918f3eb9e1086"
+DESC="GNUs regular expression matcher which can be used to search through files and directories for regex"
+INSTALLEDSIZE=1652044
+WODOCINSTALLEDSIZE=1479530
+DOWNLOADSIZE=1918448
+REQDSKSPC=26925301

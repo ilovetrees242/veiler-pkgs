@@ -1,0 +1,7 @@
++GNULD --with-gnu-ld
++ACL --with-acl
++ATTR --with-attr
++SELINUX --with-selinux
+-RPATH --disable-rpath
+-NLS --disable-nls
+-SYSTEMD --disable-logind

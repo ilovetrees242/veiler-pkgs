@@ -1,0 +1,4 @@
++GNULD --with-gnu-ld
++C++ --enable-c++
+-NLS --disable-nls
+-RPATH --disable-rpath

@@ -1,0 +1,12 @@
+# Autoconf ( Automatic Configuration )
+MOONPKGNAME="automake"
+MOONPKGVERSION="1.18"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://mirrors.hopbox.net/gnu/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="bfb78ea72e638e771e4f7815eac0f9f5a559d88fdc70354af26a392c7a861fdf"
+DESC="Contains programs for generating makefiles for use with autoconf"
+INSTALLEDSIZE=2275921
+WODOCINSTALLEDSIZE=1508374
+DOWNLOADSIZE=1652364
+REQDSKSPC=11445784

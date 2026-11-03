@@ -1,0 +1,11 @@
+# iproute2 ( Internet protocol route 2 )
+MOONPKGNAME="iproute2"
+MOONPKGVERSION="6.18.0"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://www.kernel.org/pub/linux/utils/net/iproute2/$MOONPKG$EXTENSION"
+DESC="Programs for basic and advanced ip4 based networking"
+INSTALLEDSIZE=3585348
+WODOCINSTALLEDSIZE=2740750
+DOWNLOADSIZE=945200
+REQDSKSPC=12870389

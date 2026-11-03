@@ -1,0 +1,4 @@
++X --with-x
++WAYLAND --with-wayland
+-ATTR --disable-xattr
+-NLS --disable-nls

@@ -1,0 +1,9 @@
+ncurses
+file
+coreutils
+shadow
+libxcrypt
+libtool
+readline
+gettext
+zlib

@@ -1,0 +1,6 @@
+glibc
+openssl
+xz
+zlib
+zstd
+meson

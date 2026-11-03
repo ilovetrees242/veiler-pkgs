@@ -1,0 +1,12 @@
+-NLS --disable-nls
+-RPATH --disable-rpath
+-LANGD --disable-d
+-JAVA --disable-java
+-C++ --disable-c++
+-CURSES --disable-curses
+-ATTR --disable-xattr
+-ACL --disable-acl
+-SELINUX --without-selinux
+-XZ --without-xz
+-BZIP2 --without-bzip2
+-EMACS --without-emacs

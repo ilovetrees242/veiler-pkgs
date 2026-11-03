@@ -1,0 +1,7 @@
+/usr/share/aclocal/intltool.m4
+/usr/share/intltool/Makefile.in.in
+/usr/bin/intltoolize
+/usr/bin/intltool-extract
+/usr/bin/intltool-prepare
+/usr/bin/intltool-update
+/usr/bin/intltool-merge

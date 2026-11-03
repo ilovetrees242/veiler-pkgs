@@ -1,0 +1,11 @@
+# Man-db ( Manual database )
+MOONPKGNAME="man-db"
+MOONPKGVERSION="2.13.1"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://download.savannah.gnu.org/releases/$MOONPKGNAME/$MOONPKG$EXTENSION"
+DESC="Contains programs for viewing and finding manual pages"
+INSTALLEDSIZE=4333721
+WODOCINSTALLEDSIZE=3990305
+DOWNLOADSIZE=2110328
+REQDSKSPC=38578922

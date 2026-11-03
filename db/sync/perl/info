@@ -1,0 +1,12 @@
+# Perl ( Practical extraction and report language ) 
+MOONPKGNAME="perl"
+MOONPKGVERSION="5.42.2"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://www.cpan.org/src/5.0/$MOONPKG$EXTENSION"
+SHA256SUM="af8782b8844534994128fe372b664545742a46f59f85e3e97b9287e6af2ceafc"
+DESC="Contains the compiler/interpreter for the perl programming language, a powerful programming language for automation and extraction of data"
+INSTALLEDSIZE=82956193
+WODOCINSTALLEDSIZE=62997164
+DOWNLOADSIZE=14483976
+REQDSKSPC=235482912

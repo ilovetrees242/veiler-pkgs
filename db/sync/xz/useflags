@@ -1,0 +1,6 @@
++GNULD --with-gnu-ld
++DOXYGEN --enable-doxygen
+-NLS --disable-nls
+-LZMA --disable-lzmainfo 
+-LZMA --disable-lzmadec
+-LZMA --disable-lzma-links

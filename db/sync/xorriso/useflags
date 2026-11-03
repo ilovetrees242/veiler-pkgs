@@ -1,0 +1,13 @@
++EDITLINE --enable-libedit
+-EDITLINE --disable-libedit
++READLINE --enable-libreadline
+-READLINE --disable-libreadline
++DEBUG --enable-debug
++ATTR --enable-xattr
+-ATTR --disable-xattr
++ACL --enable-libacl
+-ACL --disable-libacl
++ZLIB --enable-zlib
++BZIP2 --enable-libbz2
+-BZIP2 --disable-libbz2
+-ZLIB --disable-zlib

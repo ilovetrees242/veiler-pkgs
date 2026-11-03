@@ -1,0 +1,12 @@
+# Find utils ( find utilities )
+MOONPKGNAME="findutils"
+MOONPKGVERSION="4.10.0"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://mirrors.hopbox.net/gnu/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="be61cde9b020aaa3ef698507adb28d76eef5a3c9aacade7d0eecc34b19f4e31a"
+DESC="Findutils contains utilities to locate files on a system efficiently and easily"
+INSTALLEDSIZE=3718069
+WODOCINSTALLEDSIZE=3184777
+DOWNLOADSIZE=2240712
+REQDSKSPC=36632361

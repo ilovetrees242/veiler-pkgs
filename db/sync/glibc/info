@@ -1,0 +1,12 @@
+# Glibc ( GNU Lib C)
+MOONPKGNAME="glibc"
+MOONPKGVERSION="2.43"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://mirrors.hopbox.net/gnu/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="7b78bb9e36a9f071f918f46229b5d25f37a3da5cda0cebd1ac4b0345acee8fa5"
+DESC="GLibc is the GNU's implementation of the standard C library, for provided libraries to allocate memory, handle strings, manage files, networking, etc"
+INSTALLEDSIZE=111082599
+WODOCINSTALLEDSIZE=105106699
+DOWNLOADSIZE=20297012
+REQDSKSPC=844442014

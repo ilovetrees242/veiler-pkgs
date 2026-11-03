@@ -1,0 +1,8 @@
+bzip2
+xz
+zstd
+zlib
+glibc
+pkgconf
+libgcc
+libstdc++

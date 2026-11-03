@@ -1,0 +1,12 @@
+# Libtool ( Tool library )
+MOONPKGNAME="libtool"
+MOONPKGVERSION="2.5.4"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://mirrors.hopbox.net/gnu/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="4beda440432a4f2d5b50fb9c43465d4c7b06fdaaf03210ac1450b324b4ab2776"
+DESC="GNU Libtool, contains a shell script for making creation of shared and dynamic libraries easier and portable across all operating systems."
+INSTALLEDSIZE=2753763
+WODOCINSTALLEDSIZE=2371473
+DOWNLOADSIZE=1056924
+REQDSKSPC=11492010

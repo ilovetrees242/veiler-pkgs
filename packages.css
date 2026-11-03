@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-color: #050506;
+    overflow-x: hidden;
+}
+*{
+    color: #ECE6E9;
+    font-family: "SN Pro";
+}
+.headers {
+    font-size: 25px;
+    color: var(--cool-dark-white);
+    padding: 0px;
+}
+.pkgbox {
+	background-color: var(--body-black);
+	width: calc(100% - 12px);
+	margin: 5px;
+	height: auto;
+	border-radius: 15px;
+    border: solid 2px var(--black);
+    padding-bottom: 25px;
+}
+.pkgbox .pkg {
+	border: 2px solid var(--black);
+	text-decoration: none;
+	margin: 25px;
+	font-size: 50px;
+    text-align: center;
+    width: calc(100% - 50px);
+    border-radius: 5px;
+    display: inline-block;
+    color: var(--cool-dark-white);
+    transition: 2s ease;
+}
+.pkgbox .pkg:hover {
+    background-color: var(--cool-dark-white);
+    color: var(--black);
+}
+.pkgdesc, .pkgver {
+    color: #E6E0E3;
+    width: 75%;
+    border-radius: 5px;
+}
+.pkgbox > * {
+	font-size: 15px;
+    margin: 0px 0px 0px 25px
+}
+.pkgbox > p:not(.pkguseflags) > b {
+	color: #ECE6E9;
+}
+.pkguseflags b {
+    color: #afafaf;
+    font-size: 21px;
+}
+.pkgbox > pre {
+    width: 75%;
+    border-radius: 5px;
+    background-color: #161515;
+}
+.pkgbox > pre >  code {
+    color: #F9F9F9;
+}
+#searchInput {
+    background-color: var(--body-black);
+    border: 3px solid var(--black);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 21px;
+    width: calc(100% - 25px);
+    margin: 5px;
+}
+#searchResult { 
+    font-size: 16px;
+    color: var(--cool-dark-white);
+    margin: 5px 0px 7px 5px;
+}
+#searchInput:focus { outline: none }
+@media all and (max-width: 830px){
+    main { margin: 0px; }
+    .headers { margin-left: 0px; }
+    .para { margin-left: 8px; }
+    .reponame {
+        font-size: 55px;
+        margin-top: 50px;
+    }
+    .pkgbox {
+        margin-left: 5px;
+        width: calc(100% - 5px * 3);
+    }
+}

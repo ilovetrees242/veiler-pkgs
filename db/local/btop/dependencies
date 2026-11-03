@@ -1,0 +1,4 @@
+cmake
+glibc
+libstdc++
+libgcc

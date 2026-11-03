@@ -1,0 +1,12 @@
+# pciutils ( Peripheral Component Interconnect Utilities )
+MOONPKGNAME="pciutils"
+MOONPKGVERSION="3.15.0"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://mj.ucw.cz/download/linux/pci/$MOONPKG$EXTENSION"
+SHA256SUM="cc53b906e954ddd6b0556c2a8074865de42a6c6b70f3387544aa8dd2754b26e4"
+DESC="Contains programs to identify hardware connected via the PCI bus"
+INSTALLEDSIZE=472096
+WODOCINSTALLEDSIZE=430212
+DOWNLOADSIZE=740612
+REQDSKSPC=5911374

@@ -1,0 +1,4 @@
++SELINUX --enable-selinux
++GNULD --with-gnu-ld
+-NLS --disable-nls
+-RPATH --disable-rpath

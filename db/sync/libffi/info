@@ -1,0 +1,12 @@
+# Libffi ( Foreign function interface library )
+MOONPKGNAME="libffi"
+MOONPKGVERSION="3.5.2"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://github.com/$MOONPKGNAME/$MOONPKGNAME/releases/download/v$MOONPKGVERSION/$MOONPKG$EXTENSION"
+SHA256SUM="7d1c6b8d76dabcd88b8162a8da663b8af2858ac9d633742f74b7d7a020e3413c"
+DESC="Libffi is a library for allowing the calling of functions in one programming language from other programming languages easily" 
+INSTALLEDSIZE=141123
+WODOCINSTALLEDSIZE=94439
+DOWNLOADSIZE=1423124
+REQDSKSPC=9594243

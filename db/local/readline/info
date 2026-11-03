@@ -1,0 +1,11 @@
+# Readline
+MOONPKGNAME="readline"
+MOONPKGVERSION="8.3"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://mirrors.hopbox.net/gnu/$MOONPKGNAME/$MOONPKG$EXTENSION"
+DESC="The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in."
+INSTALLEDSIZE=6233678
+WODOCINSTALLEDSIZE=2532055
+DOWNLOADSIZE=3419642
+REQDSKSPC=14539691

@@ -1,0 +1,11 @@
+# Patch
+MOONPKGNAME="patch"
+MOONPKGVERSION="2.8"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://mirrors.hopbox.net/gnu/$MOONPKGNAME/$MOONPKG$EXTENSION"
+DESC="The which utility is a program which is used to locate programs on a users PATH enviroment variable."
+INSTALLEDSIZE=711813
+WODOCINSTALLEDSIZE=678960
+DOWNLOADSIZE=907208
+REQDSKSPC=12707068

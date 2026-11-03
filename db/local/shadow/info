@@ -1,0 +1,11 @@
+# Shadow
+MOONPKGNAME="shadow"
+MOONPKGVERSION="4.19.3"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://github.com/shadow-maint/$MOONPKGNAME/releases/download/$MOONPKGVERSION/$MOONPKG$EXTENSION"
+DESC="Shadow contains programs for handling passwords, groups and users in a secure and efficient way"
+INSTALLEDSIZE=11084546
+WODOCINSTALLEDSIZE=10831099
+DOWNLOADSIZE=2347720
+REQDSKSPC=51035129

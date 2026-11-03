@@ -1,0 +1,913 @@
+{
+  "packages": {
+    "acl": { 
+      "pkgname": "acl",
+      "pkgversion": "2.3.2",
+      "pkgdesc": "Access control lists provides control lists, which are used for management of access rights of files and directories",
+      "pkgdeps": ["glibc","attr"],
+      "pkgaliases": [""],
+      "useflags": ["-RPATH","-NLS","+DEBUG","+GNULD"],
+      "sha256sum": "db701ae458c9b57edad1a521ce5cc743fc4e22117a17c54d93b90b9496ed1074"
+    },
+    "attr": { 
+      "pkgname": "attr",
+      "pkgversion": "2.5.2",
+      "pkgdesc": "Attr package gives you extended file attributes, beyond normal file attributes",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": ["-RPATH","-NLS","+DEBUG","+GNULD"],
+      "sha256sum": "f465ed5335dd8f7fa2be120e68cb546c335ee3d5a5baec91fe4b8bc68ad130bf"
+    },
+    "autoconf": { 
+      "pkgname": "autoconf",
+      "pkgversion": "2.72",
+      "pkgdesc": "Autoconf helps in automatically generating shell scripts which can configure source code",
+      "pkgdeps": ["gawk","diffutils","m4","perl"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "b2beb89ddb4b07385b95b1c7992bde0f8bb321ecfe20c811802c25897bfcc118"
+    },
+    "automake": { 
+      "pkgname": "automake",
+      "pkgversion": "1.18",
+      "pkgdesc": "Contains programs for generating makefiles for use with autoconf",
+      "pkgdeps": ["perl","bash","autoconf"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "bfb78ea72e638e771e4f7815eac0f9f5a559d88fdc70354af26a392c7a861fdf"
+    },
+    "bash": { 
+      "pkgname": "bash",
+      "pkgversion": "5.3",
+      "pkgdesc": "Bash ( Bourne Again SHell ) is a simple, powerful shell by GNU",
+      "pkgdeps": ["glibc","ncurses","readline"],
+      "pkgaliases": [""],
+      "useflags": ["+DEBUG","+STATIC","+HISTORY","+CURSES","+GNULD","+READLINE","-NLS","-RPATH"],
+      "sha256sum": "73858f71a2e7c0803f79999e35b007ec40228d7871e81c4d578cff7cd3bbdcf2"
+    },
+    "bc": { 
+      "pkgname": "bc",
+      "pkgversion": "7.0.3",
+      "pkgdesc": "A high precision command line calculator implementation of the POSIX calculator",
+      "pkgdeps": ["readline"],
+      "pkgaliases": [""],
+      "useflags": ["+EDITLINE","+DEBUG","+VALGRIND","-HISTORY","-NLS"],
+      "sha256sum": "34e3efac13f58ed18da1a507d99d260307609ff60833c1da6d93c0a76d84b952"
+    },
+    "binutils": { 
+      "pkgname": "binutils",
+      "pkgversion": "2.46.0",
+      "pkgdesc": "Binutils contains various utilities for handling binary object files, like ld, as, etc.",
+      "pkgdeps": ["glibc","libelf","zlib","zstd"],
+      "pkgaliases": [""],
+      "useflags": ["+LTO"],
+      "sha256sum": "7f1101ddba9b40229fd3d1b107d694ef5302db076c1681012c33ffb9a17fc538"
+    },
+    "bison": { 
+      "pkgname": "bison",
+      "pkgversion": "3.8.2",
+      "pkgdesc": "The GNU General purpose parser generator",
+      "pkgdeps": ["gettext","glibc","m4"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD","-NLS"],
+      "sha256sum": "b5fe8d7e563c658943f4f14a30d419635a20456a07b58e3af8b84f1d2ed1481c"
+    },
+    "btop": { 
+      "pkgname": "btop",
+      "pkgversion": "1.4.7",
+      "pkgdesc": "A high interactive resource monitor with cool and futuristic interface, and features. C++ adaptation of bpytop",
+      "pkgdeps": ["cmake","glibc","libstdc++","libgcc"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "99ebc705a4f01ad50a5e12a1147d4b7be38e3cddc90dd005fbc6383255e24c7c"
+    },
+    "bzip2": { 
+      "pkgname": "bzip2",
+      "pkgversion": "1.0.8",
+      "pkgdesc": "Bzip2 contains programs for compressing and decompressing files, and it yields a better compression rate than with the standard gzip",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "39a46eec3e6118f942176ce5311eb52cef168fcb31099f47896454cf11ed22ca"
+    },
+    "cmake": { 
+      "pkgname": "cmake",
+      "pkgversion": "4.2.3",
+      "pkgdesc": "A modern build system, successor to GNU autoconf and automake",
+      "pkgdeps": ["glibc","expat","libgcc","libstdc++","zlib","ncurses","ninja"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "44102afa55713e413654be7bb332df53079d0688a0c3aee030c84dccb53b36ca"
+    },
+    "cmatrix": { 
+      "pkgname": "cmatrix",
+      "pkgversion": "2.0",
+      "pkgdesc": "Provides very cool matrix text scrolling on a terminal screen",
+      "pkgdeps": ["ncurses","cmake"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "b4a472c477b188991df3d38c20e96520f97829b2a685dd4b42cb73cc09bbdd08"
+    },
+    "coreutils": { 
+      "pkgname": "coreutils",
+      "pkgversion": "9.11",
+      "pkgdesc": "The coreutils package contains all tools and utilities necessary for any operating system's foundation",
+      "pkgdeps": ["acl","attr","glibc","gmp","libcap"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD","+SYSTEMD","-RPATH","-ACL","-ATTR","-SELINUX","-NLS"],
+      "sha256sum": "f6057de0666fec2a9e0eb86ae05770ad18f77f1676cb7419d02a6be00b35babe"
+    },
+    "dbus": { 
+      "pkgname": "dbus",
+      "pkgversion": "1.16.2",
+      "pkgdesc": "DBus is a message bus system for allowing efficient IPC between processes",
+      "pkgdeps": ["libcap","systemd","glibc","expat","meson"],
+      "pkgaliases": [""],
+      "useflags": ["+SELINUX","+VALGRIND","+SYSTEMD","-SYSTEMD","+AUDIT"],
+      "sha256sum": "207c8e7b2018cce9764b9a93f180d76dbf043dbd205f855d1c347aa1e46f6439"
+    },
+    "dejagnu": { 
+      "pkgname": "dejagnu",
+      "pkgversion": "1.6.3",
+      "pkgdesc": "GNU Test suite framework",
+      "pkgdeps": ["expect"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "161344bbbaddef0cf043ed338bc0ebb6462ada44fc40fc4a1d0eb0eb0ddf529f"
+    },
+    "dhcpcd": { 
+      "pkgname": "dhcpcd",
+      "pkgversion": "10.5.2",
+      "pkgdesc": "Implementation of DHCP client specified in RFC2131. DHCP assigns address to your computer for connecting to a network",
+      "pkgdeps": [""],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "9db96cd8bf79c7b08f00a4bf74af848f0ad2d0d4796df5f3391d1b9baaeb1e2a"
+    },
+    "diffutils": { 
+      "pkgname": "diffutils",
+      "pkgversion": "3.12",
+      "pkgdesc": "Diffutils contains utilities for listing differences between files or directories",
+      "pkgdeps": [""],
+      "pkgaliases": [""],
+      "useflags": ["-RPATH","-NLS","+GNULD"],
+      "sha256sum": "7807a87c5dff0d66e26b0e43e4421bd777f8d5782320268d92cc5173fceb9881"
+    },
+    "dosfstools": { 
+      "pkgname": "dosfstools",
+      "pkgversion": "4.2",
+      "pkgdesc": "Contains programs for handling FAT filesystems from DOS",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD","-RPATH"],
+      "sha256sum": "3ee69c30af83368db6c7ebee896e6ca58a891144677a46c1210684dea16725ba"
+    },
+    "e2fsprogs": { 
+      "pkgname": "e2fsprogs",
+      "pkgversion": "1.47.3",
+      "pkgdesc": "Contains filesystem utilities for handling the ext2 filesystem. Can also support ext3 and ext4",
+      "pkgdeps": ["util-linux","systemd"],
+      "pkgaliases": [""],
+      "useflags": ["-NLS","-RPATH","+GNULD","+LTO"],
+      "sha256sum": "22d97ce4006d4432d278a886c22b20754a38d6fcc1f7f57687ba3b07cba5389d"
+    },
+    "elfutils": { 
+      "pkgname": "elfutils",
+      "pkgversion": "0.195",
+      "pkgdesc": "The elfutils pacakge contains various tools and libraries for handling ELF files.",
+      "pkgdeps": ["libelf","libgcc","glibc","libstdc++","xz","bzip2","zstd","zlib"],
+      "pkgaliases": [""],
+      "useflags": ["+VALGRIND","+GNULD","-NLS","-RPATH"],
+      "sha256sum": "3393e5724242563bb3a2bd99948b52385dc89f4b9dccf44f0320331b1560339a"
+    },
+    "expat": { 
+      "pkgname": "expat",
+      "pkgversion": "2.7.5",
+      "pkgdesc": "Expat is an XML Parsing library",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD"],
+      "sha256sum": "a99b349e55a11936390e2bb8796a309c2c78ccb6d924fbf526d7a725eb434c4a"
+    },
+    "expect": { 
+      "pkgname": "expect",
+      "pkgversion": "5.45.4",
+      "pkgdesc": "Expat is an XML Parsing library",
+      "pkgdeps": ["tcl"],
+      "pkgaliases": [""],
+      "useflags": ["+DEBUG"],
+      "sha256sum": "940d20489584d7f75312b5150c3961329b13398f413d6dc25b2a52bae23b5f9f"
+    },
+    "fastfetch": { 
+      "pkgname": "fastfetch",
+      "pkgversion": "2.66.0",
+      "pkgdesc": "A maintained, fast utility used to display system information",
+      "pkgdeps": ["cmake","yyjson","glibc"],
+      "pkgaliases": ["ff"],
+      "useflags": ["+LTO","+WAYLAND"],
+      "sha256sum": "515f92d6135f191dd52a19e8bb3b33a8acf5d05d3a4856cdd726d38501acde10"
+    },
+    "file": { 
+      "pkgname": "file",
+      "pkgversion": "5.47",
+      "pkgdesc": "File utility provides programs which can be used to identify file-type of a file using magick bytes",
+      "pkgdeps": ["bzip2","xz","zlib","zstd","glibc"],
+      "pkgaliases": [""],
+      "useflags": ["-ZLIB","-XZ","-ZSTD","-BZIP2","+GNULD"],
+      "sha256sum": "cc3c2d94603c6b3fa8dfcb14fb16f4cfc156b36be05dd2be16ac5cc7b2a0f0eb"
+    },
+    "findutils": { 
+      "pkgname": "findutils",
+      "pkgversion": "4.10.0",
+      "pkgdesc": "Findutils contains utilities to locate files on a system efficiently and easily",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": ["-RPATH","-NLS","-SELINUX","+GNULD"],
+      "sha256sum": "be61cde9b020aaa3ef698507adb28d76eef5a3c9aacade7d0eecc34b19f4e31a"
+    },
+    "flex": { 
+      "pkgname": "flex",
+      "pkgversion": "2.6.4",
+      "pkgdesc": "Flex package contains utility for generating programs that recognise patterns in text",
+      "pkgdeps": ["glibc","m4"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD","-BOOTSTRAP","-NLS"],
+      "sha256sum": "f8dac46befb9b757d1fcd4ebd125995d862a2f53b0f0e99ea007c8a0f93edfcc"
+    },
+    "flit-core": { 
+      "pkgname": "flit-core",
+      "pkgversion": "3.12.0",
+      "pkgdesc": "PEP 517 build backend for packages using flit",
+      "pkgdeps": ["python"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "cbbf2d242051e09e75e3742e4770a5c87c7ee38500eedba25e34b3e4eb3998d7"
+    },
+    "gawk": { 
+      "pkgname": "gawk",
+      "pkgversion": "5.3.2",
+      "pkgdesc": "Gawk contains various programs for extracting data from files or stdout",
+      "pkgdeps": ["glibc","mpfr","bash"],
+      "pkgaliases": ["awk"],
+      "useflags": ["-RPATH","-NLS","-MPFR","+GNULD"],
+      "sha256sum": "b914eb417d385b4956454261e429d1d51625961868cafa2ab963bdad68282368"
+    },
+    "gcc": { 
+      "pkgname": "gcc",
+      "pkgversion": "15.2.0",
+      "pkgdesc": "The GNU Compiler collection for compiling various languages like C, C++, Ada, Fortran, etc",
+      "pkgdeps": ["glibc","binutils","zstd","mpc"],
+      "pkgaliases": [""],
+      "useflags": ["+LTO","-BOOTSTRAP","+BOOTSTRAP","-MULTILIB","-NLS"],
+      "sha256sum": "6cc7a3bb883fecb51a89c6ab4a8f66c3b51de1772374f9182c86bb647f7ad3b7"
+    },
+    "gdbm": { 
+      "pkgname": "gdbm",
+      "pkgversion": "1.26",
+      "pkgdesc": "GDBM is a library of database functions that use extensible hasing and work similar to UNIX DBM",
+      "pkgdeps": ["glibc","readline"],
+      "pkgaliases": [""],
+      "useflags": ["-NLS","+GNULD","-READLINE","+DEBUG","+DEBUG"],
+      "sha256sum": "af96db94c3da646b413fa6c06ac0aab9bbb45fba4c348335f0efc3f14071b4f7"
+    },
+    "gettext": { 
+      "pkgname": "gettext",
+      "pkgversion": "1.0",
+      "pkgdesc": "Gettext provides utilities for internationalization and localization",
+      "pkgdeps": ["acl","attr","glibc","libgcc","ncurses","libstdc++"],
+      "pkgaliases": [""],
+      "useflags": ["-NLS","-RPATH","-LANGD","-JAVA","-C++","-CURSES","-ATTR","-ACL","-SELINUX","-XZ","-BZIP2","-EMACS"],
+      "sha256sum": "dbac5bdf4608be012d44d39e49d05092696e71720f4a28d70c96364bf17bb488"
+    },
+    "glibc": { 
+      "pkgname": "glibc",
+      "pkgversion": "2.43",
+      "pkgdesc": "GLibc is the GNU's implementation of the standard C library, for provided libraries to allocate memory, handle strings, manage files, networking, etc",
+      "pkgdeps": ["iana-etc","linux-api-headers"],
+      "pkgaliases": ["libc"],
+      "useflags": ["+SELINUX"],
+      "sha256sum": "7b78bb9e36a9f071f918f46229b5d25f37a3da5cda0cebd1ac4b0345acee8fa5"
+    },
+    "gmp": { 
+      "pkgname": "gmp",
+      "pkgversion": "6.3.0",
+      "pkgdesc": "Contains math libraries with useful function for arbitrary precision arithmetic",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD","+C++","+READLINE"],
+      "sha256sum": "dfe4b28d06e517acf0b0ceb15959be92e2c35e1068d974e71141aaa27a23a904"
+    },
+    "gperf": { 
+      "pkgname": "gperf",
+      "pkgversion": "3.3",
+      "pkgdesc": "GNU Perfect hash generator",
+      "pkgdeps": ["libgcc","libstdc++","glibc"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "4a4ee1225a991abe3cd4c1ba5bd439bde0627e648a6590d2a22ffb07552bf661"
+    },
+    "grep": { 
+      "pkgname": "grep",
+      "pkgversion": "3.12",
+      "pkgdesc": "GNUs regular expression matcher which can be used to search through files and directories for regex",
+      "pkgdeps": [""],
+      "pkgaliases": [""],
+      "useflags": ["-RPATH","-NLS","+GNULD"],
+      "sha256sum": "d5a932b23d1e775021280946c13fdfd46a2bf95f2617761c2cd918f3eb9e1086"
+    },
+    "groff": { 
+      "pkgname": "groff",
+      "pkgversion": "1.23.0",
+      "pkgdesc": "Contains programs for processing text and images",
+      "pkgdeps": ["glibc","libstdc++","libgcc","perl"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD","+X","-RPATH"],
+      "sha256sum": "21488b52eae1f9e8928063d7ed441bfcfc914e2888863e2fbe3854481e40373d"
+    },
+    "gzip": { 
+      "pkgname": "gzip",
+      "pkgversion": "1.14",
+      "pkgdesc": "Contains gnu implementation for compressing and decompressing files",
+      "pkgdeps": ["coreutils","bash","glibc","grep","sed"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "3d120a7e6d19985a4025ffb8a28cb82073398117db638863eb49ed104b5b2f0c"
+    },
+    "htop": { 
+      "pkgname": "htop",
+      "pkgversion": "3.4.1",
+      "pkgdesc": "Interactive command line system resource usage monitor",
+      "pkgdeps": ["ncurses","libcap"],
+      "pkgaliases": [""],
+      "useflags": ["+STATIC","+SENSORS","+DEBUG","+UNWIND"],
+      "sha256sum": "7ab5c2f34ff20d5b11e87a436982e41921bf37252a143252ab9a967af102a1eb"
+    },
+    "hwdata": { 
+      "pkgname": "hwdata",
+      "pkgversion": "0.404",
+      "pkgdesc": "Contains current PCI and vendor ID data",
+      "pkgdeps": [""],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "adbb5ce464b55c46513d32863cb75d9db2cc59b40740649f29f7da07ea8531af"
+    },
+    "iana-etc": { 
+      "pkgname": "iana-etc",
+      "pkgversion": "20260202",
+      "pkgdesc": "Provides various services and protocols by IANA",
+      "pkgdeps": [""],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "46e455f2e1fb5d48c5012665dfa6dcd37013e3b32a21d2cd5c4b058ab7ece1dc"
+    },
+    "inetutils": { 
+      "pkgname": "inetutils",
+      "pkgversion": "2.7",
+      "pkgdesc": "Contains tools for basic networking",
+      "pkgdeps": ["libcap","libxcrypt","ncurses","readline","glibc"],
+      "pkgaliases": [""],
+      "useflags": ["+SYSTEMD","-RPATH"],
+      "sha256sum": "f8a726f01e51c659783b5a674cf8aaf68408c3fbc3605aae0058321aa845571b"
+    },
+    "intltool": { 
+      "pkgname": "intltool",
+      "pkgversion": "0.51.0",
+      "pkgdesc": "An internationalisation tool",
+      "pkgdeps": ["xml-parser"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "0a38bdc140b9cc05ee425fcc7c96db23874f8ab2e6a2e695f1f81ff7661ed373"
+    },
+    "iproute2": { 
+      "pkgname": "iproute2",
+      "pkgversion": "6.18.0",
+      "pkgdesc": "Programs for basic and advanced ip4 based networking",
+      "pkgdeps": ["glibc","libcap","libelf"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "93850bccd5eb422dfc5c3813e82f032f0a938b404ee9cf35b833181f16026980"
+    },
+    "jinja2": { 
+      "pkgname": "jinja2",
+      "pkgversion": "3.1.6",
+      "pkgdesc": "Implements simple pythonic template language",
+      "pkgdeps": ["python","flit-core","markupsafe","wheel","setuptools"],
+      "pkgaliases": ["python-jinja","jinja"],
+      "useflags": [""],
+      "sha256sum": "5651bf73627950ba21d80a2213bc71fe3f45c256160e996913b2486e47288593"
+    },
+    "kbd": { 
+      "pkgname": "kbd",
+      "pkgversion": "2.9.0",
+      "pkgdesc": "Contains utilities related to keymaps, console fonts, etc.",
+      "pkgdeps": ["glibc","gzip"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD","-NLS","-RPATH"],
+      "sha256sum": "797d2d33b5a796eb93e819d27e8118fdcea73ef491020136c0cf846db9aeef4e"
+    },
+    "kmod": { 
+      "pkgname": "kmod",
+      "pkgversion": "34.2",
+      "pkgdesc": "Cotains utilites for loading kernel modules from userspace",
+      "pkgdeps": ["glibc","openssl","xz","zlib","zstd","meson"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "8e921a47712a659f814ea970fe4fffe7fc6720d33ac615dd81e362c3b085fdfb"
+    },
+    "less": { 
+      "pkgname": "less",
+      "pkgversion": "704",
+      "pkgdesc": "A pager program for viewing large output in a terminal without a text editor",
+      "pkgdeps": ["ncurses","glibc","pcre2"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "feb8d17fc6db42cfdc5a8d73e24ef8449340772c710e940c0ec27c68d976c37b"
+    },
+    "libcap": { 
+      "pkgname": "libcap",
+      "pkgversion": "2.77",
+      "pkgdesc": "POSIX 1003.1e capabilities for managing priviledges",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": ["+PAM"],
+      "sha256sum": "7c7453d89b92d7149b979871daf7c5131e3110ea848baf1ef45f999b7aa5fa1c"
+    },
+    "libelf": { 
+      "pkgname": "libelf",
+      "pkgversion": "0.195",
+      "pkgdesc": "The libelf package contains libraries for handling the ELF format.",
+      "pkgdeps": ["bzip2","xz","zstd","zlib","glibc","pkgconf","libgcc","libstdc++"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "56450d86b73584491cdc7af5f368af2b8045b6a660b42b23d3e085b58243aaa4"
+    },
+    "libffi": { 
+      "pkgname": "libffi",
+      "pkgversion": "3.5.2",
+      "pkgdesc": "Libffi is a library for allowing the calling of functions in one programming language from other programming languages easily",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD"],
+      "sha256sum": "7d1c6b8d76dabcd88b8162a8da663b8af2858ac9d633742f74b7d7a020e3413c"
+    },
+    "libgcc": { 
+      "pkgname": "libgcc",
+      "pkgversion": "15.2.0",
+      "pkgdesc": "Low level runtime libraries provided by gcc",
+      "pkgdeps": ["glibc","gmp","mpfr","mpc","binutils"],
+      "pkgaliases": [""],
+      "useflags": ["+LTO","-BOOTSTRAP","+BOOTSTRAP","-MULTILIB","-NLS"],
+      "sha256sum": "54b1bef7f9f59032e36458c5473ff182a1dbffb4a2a74b9fe6f6220052cc7971"
+    },
+    "libpipeline": { 
+      "pkgname": "libpipeline",
+      "pkgversion": "1.5.8",
+      "pkgdesc": "Libpipeline contains library for manipulating pipelines in an efficient way",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "6eebb8b7a8899f4a08c0ac698dccc6ca577d4f41d70201a929917bee9c896660"
+    },
+    "libstdc++": { 
+      "pkgname": "libstdc++",
+      "pkgversion": "15.2.0",
+      "pkgdesc": "Standard C++ Library provided by GCC",
+      "pkgdeps": ["glibc","binutils"],
+      "pkgaliases": [""],
+      "useflags": ["+LTO","-MULTILIB","-NLS"],
+      "sha256sum": "c46683e74e518e60350e3057f40aeae5accd7fb3e0bba3e8d6a68c17cc750507"
+    },
+    "libtool": { 
+      "pkgname": "libtool",
+      "pkgversion": "2.5.4",
+      "pkgdesc": "GNU Libtool, contains a shell script for making creation of shared and dynamic libraries easier and portable across all operating systems.",
+      "pkgdeps": ["glibc","tar"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD"],
+      "sha256sum": "4beda440432a4f2d5b50fb9c43465d4c7b06fdaaf03210ac1450b324b4ab2776"
+    },
+    "libxcrypt": { 
+      "pkgname": "libxcrypt",
+      "pkgversion": "4.5.2",
+      "pkgdesc": "Implements modern one-way password hashing",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": ["+VALGRIND"],
+      "sha256sum": "e71296a6af7fe2c59751c72103adc0414543617e03027da7c6964693db46c40b"
+    },
+    "linux": { 
+      "pkgname": "linux",
+      "pkgversion": "6.18.10",
+      "pkgdesc": "The Linux kernel",
+      "pkgdeps": ["coreutils","bc","kmod"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "e2f90d9e2afdb9aa22a70ab1ab25958426917467922e733610dc8bacc2887ccf"
+    },
+    "linux-api-headers": { 
+      "pkgname": "linux-api-headers",
+      "pkgversion": "6.18.10",
+      "pkgdesc": "Exposes the programming interface of the kernel",
+      "pkgdeps": [""],
+      "pkgaliases": ["api-headers"],
+      "useflags": [""],
+      "sha256sum": "1508612ae9cc974658722fc52f253709095099659782b7c8e21c71f19c1b49ef"
+    },
+    "linux-pam": { 
+      "pkgname": "linux-pam",
+      "pkgversion": "1.7.2",
+      "pkgdesc": "Contains pluggable authentication modules which can be used for authentication anywhere",
+      "pkgdeps": ["glibc","libxcrypt","flex","meson"],
+      "pkgaliases": ["pam"],
+      "useflags": ["+SELINUX","-SELINUX","-NLS"],
+      "sha256sum": "a2d8ab4abbf33362b542c8e55909d617688642af663bc29f8c87fcbccdec0fc7"
+    },
+    "lz4": { 
+      "pkgname": "lz4",
+      "pkgversion": "1.10.0",
+      "pkgdesc": "Lz4 is an extremely fast compression algorithm",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "34a0d1e1591cf40655b886928849a066124bed862298f6759a96d510e787cc0c"
+    },
+    "m4": { 
+      "pkgname": "m4",
+      "pkgversion": "1.4.21",
+      "pkgdesc": "The GNU Macro processor",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD","+C++","-NLS","-RPATH"],
+      "sha256sum": "e49ab0091d54855b6f9cb99804891bae90307595bef1ac789146a2f9bba88e7d"
+    },
+    "make": { 
+      "pkgname": "make",
+      "pkgversion": "4.4.1",
+      "pkgdesc": "Contains the make program which can be used for bulk compilation efficiently.",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": ["+GUILE","-NLS","-RPATH"],
+      "sha256sum": "0da5d3b3c150fe167bd618f435db07f9f76720f5ce187c61a022fbdc9f41185e"
+    },
+    "man-db": { 
+      "pkgname": "man-db",
+      "pkgversion": "2.13.1",
+      "pkgdesc": "Contains programs for viewing and finding manual pages",
+      "pkgdeps": ["glibc","bash","gdbm","groff","less","libpipeline"],
+      "pkgaliases": ["mandb","man"],
+      "useflags": ["+GNULD","-NLS","-RPATH"],
+      "sha256sum": "42c40ed0293f8971b1ec4c7020f0563e214de7b05f033c4aa475ba86f368c7bb"
+    },
+    "markupsafe": { 
+      "pkgname": "markupsafe",
+      "pkgversion": "3.0.3",
+      "pkgdesc": "Implements XML/HTML/XHTML markup safe string",
+      "pkgdeps": ["setuptools","wheel","glibc","python"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "d8ca84d96f4d7a1be691d6f91dbf64d30b4e7a1b8b0142e29a7ad9c9e07a66cb"
+    },
+    "meson": { 
+      "pkgname": "meson",
+      "pkgversion": "1.10.1",
+      "pkgdesc": "The meson build system with aim to be as user friendly to developers as possible",
+      "pkgdeps": ["ninja","python","setuptools","bash"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "63c6a7b38d2178c93c70350e956f3dfb1cee31d313f5111c481f7e1084fae7f6"
+    },
+    "mpc": { 
+      "pkgname": "mpc",
+      "pkgversion": "1.3.1",
+      "pkgdesc": "MPC is a library containing multi precision functions",
+      "pkgdeps": ["glibc","gmp","mpfr"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD","+VALGRIND"],
+      "sha256sum": "c09c094f6a7a1f63adbbc021459b3bb06b914dce095ebdb6426d60ad9b26fe2a"
+    },
+    "mpfr": { 
+      "pkgname": "mpfr",
+      "pkgversion": "4.2.2",
+      "pkgdesc": "Contains math functions for multi precision math",
+      "pkgdeps": ["glibc","gmp"],
+      "pkgaliases": [""],
+      "useflags": ["+LTO"],
+      "sha256sum": "ea7b119ee4b88d9e97f171e793f8d44b3bbb24ea42a848c805b660542c743ceb"
+    },
+    "ncurses": { 
+      "pkgname": "ncurses",
+      "pkgversion": "6.6",
+      "pkgdesc": "Ncurses is a library for handling terminal-independent handling of screens and TUIs",
+      "pkgdeps": ["glibc","libgcc","libstdc++"],
+      "pkgaliases": [""],
+      "useflags": ["+DEBUG","-DEBUG"],
+      "sha256sum": "ac08e89cb95e6e970db8b06a2b82108dbf404b71bc55e96efafe6551bc9cab36"
+    },
+    "neofetch": { 
+      "pkgname": "neofetch",
+      "pkgversion": "7.1.0",
+      "pkgdesc": "System information utiltiy used to display information like the kernel name, distro name uptime, packages installed, etc",
+      "pkgdeps": ["bash","glibc"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "bbe37da493094767adefb7eeff9b925de578b55ac174f54025b78336b3f11b34"
+    },
+    "ninja": { 
+      "pkgname": "ninja",
+      "pkgversion": "1.13.2",
+      "pkgdesc": "A build system for compilation with focus on speed",
+      "pkgdeps": ["glibc","libstdc++","libgcc","python"],
+      "pkgaliases": [""],
+      "useflags": ["+DEBUG"],
+      "sha256sum": "192810257c0d754349ce91a69fc853cc13d89359676885a5e0409e89f8c32ad0"
+    },
+    "openssl": { 
+      "pkgname": "openssl",
+      "pkgversion": "3.6.1",
+      "pkgdesc": "Contains cryptographic functions. It is used by things like https and ssh to hash credentials and data to prevent cyber attacks",
+      "pkgdeps": ["perl","glibc","zstd","zlib"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "3d1d8b63da31818d12f40a6a3fd8a7a2d91d992572eaba213b48c10c0c5f5341"
+    },
+    "packaging": { 
+      "pkgname": "packaging",
+      "pkgversion": "26.0",
+      "pkgdesc": "Provides core utilities for version handling, and system markers for python packaging",
+      "pkgdeps": ["python","flit-core"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "1742960aa7bf8f804dd4b3a3db3e94492f9cd93cf37422ebca506dd818d897a6"
+    },
+    "patch": { 
+      "pkgname": "patch",
+      "pkgversion": "2.8",
+      "pkgdesc": "The which utility is a program which is used to locate programs on a users PATH enviroment variable.",
+      "pkgdeps": ["attr","glibc"],
+      "pkgaliases": [""],
+      "useflags": ["-ATTR"],
+      "sha256sum": "9b8a40b21db2d4e45cfae8a8d131ebb433dc9b99b124cf027f245f4afd1bf414"
+    },
+    "pciutils": { 
+      "pkgname": "pciutils",
+      "pkgversion": "3.15.0",
+      "pkgdesc": "Contains programs to identify hardware connected via the PCI bus",
+      "pkgdeps": ["glibc","hwdata"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "cc53b906e954ddd6b0556c2a8074865de42a6c6b70f3387544aa8dd2754b26e4"
+    },
+    "pcre2": { 
+      "pkgname": "pcre2",
+      "pkgversion": "10.47",
+      "pkgdesc": "Contains new generation of perl compatible regular expression libraries",
+      "pkgdeps": ["glibc","bzip2","readline","zlib"],
+      "pkgaliases": ["pcre"],
+      "useflags": ["+GNULD","+VALGRIND"],
+      "sha256sum": "448a8df8dad92f6d221795b035f848ed4f49729a4f1fa00e141cbd4c2f873c3f"
+    },
+    "perl": { 
+      "pkgname": "perl",
+      "pkgversion": "5.42.2",
+      "pkgdesc": "Contains the compiler/interpreter for the perl programming language, a powerful programming language for automation and extraction of data",
+      "pkgdeps": ["glibc","gdbm","libxcrypt"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "af8782b8844534994128fe372b664545742a46f59f85e3e97b9287e6af2ceafc"
+    },
+    "pkgconf": { 
+      "pkgname": "pkgconf",
+      "pkgversion": "2.5.1",
+      "pkgdesc": "Pkgconf contains a tool for passing library and include paths to compilers during the package installation",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": ["pkg-config","pkgconfig","pkg-conf"],
+      "useflags": ["+GNULD"],
+      "sha256sum": "feb7b15fc95393f8ebff754f5808c4ee8e70244e268001cc4b369f24efdb3640"
+    },
+    "procps-ng": { 
+      "pkgname": "procps-ng",
+      "pkgversion": "4.0.6",
+      "pkgdesc": "Contains various programs for monitoring system tasks",
+      "pkgdeps": ["glibc","ncurses","systemd"],
+      "pkgaliases": ["procps"],
+      "useflags": ["+SYSTEMD","+ELOGIND","+GNULD","+SELINUX","-NCURSES","-NLS","-RPATH"],
+      "sha256sum": "9949e4963581d325b8d155fb3acaa1bb85065aacd9d5fb893d5b83bbe2bcfbff"
+    },
+    "psmisc": { 
+      "pkgname": "psmisc",
+      "pkgversion": "23.7",
+      "pkgdesc": "Procfs micellaneous tools",
+      "pkgdeps": ["ncurses"],
+      "pkgaliases": [""],
+      "useflags": ["+SELINUX","+GNULD","-NLS","-RPATH"],
+      "sha256sum": "8465143f4101311b381571d4a871ba601cd0493d2c6676ec178d4924617e7e2e"
+    },
+    "python": { 
+      "pkgname": "python",
+      "pkgversion": "3.14.4",
+      "pkgdesc": "This package provides the interpreter and other libraries for the interpreted language Python",
+      "pkgdeps": ["bzip2","pkgconf","expat","gdbm","libffi","libxcrypt","zlib","zstd","tzdata"],
+      "pkgaliases": [""],
+      "useflags": ["+VALGRIND","+DEBUG","+SAFETY","+OPTIMIZATIONS"],
+      "sha256sum": "082969ce3688c553974851653044b2f97dee2a499310783faded2eb47b51342f"
+    },
+    "ranger": { 
+      "pkgname": "ranger",
+      "pkgversion": "1.9.4",
+      "pkgdesc": "Ranger is a command line file manager with VI key binding",
+      "pkgdeps": ["python"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "e057968b8891172d0829536bb1e7cb9bc2b1e141028b844fc87e98b4e89dbc6c"
+    },
+    "readline": { 
+      "pkgname": "readline",
+      "pkgversion": "8.3",
+      "pkgdesc": "The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in.",
+      "pkgdeps": ["glibc","ncurses"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "c874dff7f58a2c33895b931ede249b942de93514335e9157c3f3a0f44418eb97"
+    },
+    "sed": { 
+      "pkgname": "sed",
+      "pkgversion": "4.9",
+      "pkgdesc": "Sed is an editor which allows you to edit files from the command line efficiently",
+      "pkgdeps": ["acl","glibc"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD","-NLS","+SELINUX","-ACL","-RPATH"],
+      "sha256sum": "7f5c521315ba1fd46fcc0598bf559ade415cf71153be318cdd2c87c63ec7a3fd"
+    },
+    "setuptools": { 
+      "pkgname": "setuptools",
+      "pkgversion": "82.0.0",
+      "pkgdesc": "Used in setting up python packages",
+      "pkgdeps": ["wheel","python"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "814abcbda8ce6bf7600ccf2678eef00d9cb668f1853fd5f98abdd1db96e02b4a"
+    },
+    "shadow": { 
+      "pkgname": "shadow",
+      "pkgversion": "4.19.3",
+      "pkgdesc": "Shadow contains programs for handling passwords, groups and users in a secure and efficient way",
+      "pkgdeps": ["acl","glibc","libxcrypt","libcap","linux-pam"],
+      "pkgaliases": [""],
+      "useflags": ["+GNULD","+ACL","+ATTR","+SELINUX","-RPATH","-NLS","-SYSTEMD"],
+      "sha256sum": "c17c2ef53a57c4bc6f066eef28d009bb16ccfc4f933fa0301e02ff597853415d"
+    },
+    "sqlite": { 
+      "pkgname": "sqlite",
+      "pkgversion": "3510200",
+      "pkgdesc": "Contans a light transactional database engine based on SQL",
+      "pkgdeps": ["glibc","readline","zlib"],
+      "pkgaliases": [""],
+      "useflags": ["-READLINE","+READLINE","+DEBUG"],
+      "sha256sum": "827ac23a261b75b0b17d41aedca13bbf9a0fed8fecfd9dc8790efc1e5e259c43"
+    },
+    "synfetch": { 
+      "pkgname": "synfetch",
+      "pkgversion": "2.0.0",
+      "pkgdesc": "A nice system information program with live features",
+      "pkgdeps": ["bash","coreutils","procps-ng"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "7ff448f27c9ca94b50b74c2badf335ac8711542ec5d4387c55753c671e33dc32"
+    },
+    "systemd": { 
+      "pkgname": "systemd",
+      "pkgversion": "259.1",
+      "pkgdesc": "Systemd manages startup of services, shutdown and system services",
+      "pkgdeps": ["acl","dbus","kbd","kmod","libelf","libxcrypt","lz4","openssl","pcre2","util-linux","jinja2","xz"],
+      "pkgaliases": [""],
+      "useflags": ["+DBUS","+GNUTLS","+PAM","+POLKIT","+SELINUX","-SELINUX"],
+      "sha256sum": "8a2c175729e032c3f8c776fab8b7dbaf00d092d0631919421daf31faf8ec3861"
+    },
+    "tar": { 
+      "pkgname": "tar",
+      "pkgversion": "1.35",
+      "pkgdesc": "Compression utility for compressing and decompressing files",
+      "pkgdeps": ["glibc","acl"],
+      "pkgaliases": [""],
+      "useflags": ["-ACL","-ATTR","-NLS","-RPATH","-SELINUX","+GNULD"],
+      "sha256sum": "31093dc72bfc63e00f6fac8b231408695583707b8b3d8adf9815a49b5c5ae5f6"
+    },
+    "tcl": { 
+      "pkgname": "tcl",
+      "pkgversion": "8.6.17",
+      "pkgdesc": "A dynamic power programming language for automation",
+      "pkgdeps": ["glibc","zlib"],
+      "pkgaliases": [""],
+      "useflags": ["+DEBUG"],
+      "sha256sum": "8e23fe3163453961201dacfb401c43956a501a65844bb0b94146a306101d2a9b"
+    },
+    "texinfo": { 
+      "pkgname": "texinfo",
+      "pkgversion": "7.2",
+      "pkgdesc": "Contains programs for manipulating info files",
+      "pkgdeps": ["gzip","perl","ncurses"],
+      "pkgaliases": [""],
+      "useflags": ["-NLS","-RPATH","+GNULD"],
+      "sha256sum": "a0e522ecd005018b26416299fa79c01c1e68b64ddd4ade693bf84614a4f9d2c3"
+    },
+    "tzdata": { 
+      "pkgname": "tzdata",
+      "pkgversion": "2026c",
+      "pkgdesc": "TZData contains timezone files which contain time information for timezones.",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "46d28450c1100b28506a411eb03a2be556dce4aaddbf189690e7d824c38126f4"
+    },
+    "util-linux": { 
+      "pkgname": "util-linux",
+      "pkgversion": "2.42",
+      "pkgdesc": "The util-linux package contains various tools and utilities which are used to perform operating system level actions, like listing block devices, killing a process, changing a filesystem, etc.",
+      "pkgdeps": ["ncurses","file","coreutils","shadow","libxcrypt","libtool","readline","gettext","zlib"],
+      "pkgaliases": [""],
+      "useflags": ["-READLINE","-NCURSES","-ZLIB","-RPATH","-NLS"],
+      "sha256sum": "9031fd5cef090928b6a38e4a6e48d114aece30a1f3bf79b47fb273dcef2abc18"
+    },
+    "vim": { 
+      "pkgname": "vim",
+      "pkgversion": "9.2.0078",
+      "pkgdesc": "Contains the vim editor ( VI improved ). A power editor based on original BSD VI",
+      "pkgdeps": ["acl","glibc","zlib"],
+      "pkgaliases": [""],
+      "useflags": ["+X","+WAYLAND","-ATTR","-NLS"],
+      "sha256sum": "953149f8008aac748629faf29a8084fbc3b2613cbd2f6e472922f90424448da5"
+    },
+    "wheel": { 
+      "pkgname": "wheel",
+      "pkgversion": "0.46.3",
+      "pkgdesc": "Implementation of the Python wheel packaging standard",
+      "pkgdeps": ["python","packaging"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "b5ca97c6af7d80c5bd6e1c9c88bf726cd9c7ffcbe39d99fc7fe86fe8282f44e2"
+    },
+    "which": { 
+      "pkgname": "which",
+      "pkgversion": "2.23",
+      "pkgdesc": "The which utility is a program which is used to locate programs on a users PATH enviroment variable.",
+      "pkgdeps": ["bash","glibc"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "33ec1fd490cb884d658784d16f8a9f6201ba8976c88faa8c2f11d7d51f3fb66c"
+    },
+    "xml-parser": { 
+      "pkgname": "xml-parser",
+      "pkgversion": "2.47",
+      "pkgdesc": "Expat based xml parser module for perl",
+      "pkgdeps": ["expat","perl"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "e0fcb030357578d19e0813dea09aa64e52e4c097ccbe3b68eb35b4ce6a922a38"
+    },
+    "xorriso": { 
+      "pkgname": "xorriso",
+      "pkgversion": "1.5.8",
+      "pkgdesc": "Command line utility for creating ISO images",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": ["+EDITLINE","-EDITLINE","+READLINE","-READLINE","+DEBUG","+ATTR","-ATTR","+ACL","-ACL","+ZLIB","+BZIP2","-BZIP2","-ZLIB"],
+      "sha256sum": "ea200991e12db5d9268086057fa3da175fdc58bcce731e5748c17d1833419448"
+    },
+    "xz": { 
+      "pkgname": "xz",
+      "pkgversion": "5.8.2",
+      "pkgdesc": "Xz provides programs for working with xz and lzma compressed files. It yields a better compression rate than bzip2 or gzip",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": ["xzutils"],
+      "useflags": ["+GNULD","+DOXYGEN","-NLS","-LZMA","-LZMA","-LZMA"],
+      "sha256sum": "8b92f7a00dcee470317a86512b00c9da424fee0dc7e18519fec6cd8e9a0f320c"
+    },
+    "yyjson": { 
+      "pkgname": "yyjson",
+      "pkgversion": "0.12.0",
+      "pkgdesc": "Very fast JSON library",
+      "pkgdeps": ["cmake","glibc"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "3d1482f6ab380d122e38432b29bfa831548529b03d631307fc259e578b3af8ef"
+    },
+    "zlib": { 
+      "pkgname": "zlib",
+      "pkgversion": "1.3.2",
+      "pkgdesc": "Zlib is a compression library for providing good compression routines and subroutines",
+      "pkgdeps": ["glibc"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "e390b5a9d394c740a86d9ca229d96e06420983b1e7e9335820ddff5f2124b541"
+    },
+    "zstd": { 
+      "pkgname": "zstd",
+      "pkgversion": "1.5.7",
+      "pkgdesc": "Zstd is a fast real time compression algorithm",
+      "pkgdeps": ["glibc","libgcc","libstdc++","lz4","xz","zlib"],
+      "pkgaliases": [""],
+      "useflags": [""],
+      "sha256sum": "dbe54798d680d47d990df01c6ada7826824599559686b88ae4694ba3561bcee8"
+    }
+  }
+}

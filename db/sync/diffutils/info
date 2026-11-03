@@ -1,0 +1,12 @@
+# Diff utils ( Difference utilities )
+MOONPKGNAME="diffutils"
+MOONPKGVERSION="3.12"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://mirrors.hopbox.net/gnu/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="7807a87c5dff0d66e26b0e43e4421bd777f8d5782320268d92cc5173fceb9881"
+DESC="Diffutils contains utilities for listing differences between files or directories"
+INSTALLEDSIZE=2835065
+WODOCINSTALLEDSIZE=2589543
+DOWNLOADSIZE=1938800
+REQDSKSPC=46550252

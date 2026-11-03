@@ -1,0 +1,12 @@
+# Bzip2
+MOONPKGNAME="bzip2"
+MOONPKGVERSION="1.0.8"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://www.sourceware.org/pub/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="39a46eec3e6118f942176ce5311eb52cef168fcb31099f47896454cf11ed22ca"
+DESC="Bzip2 contains programs for compressing and decompressing files, and it yields a better compression rate than with the standard gzip"
+INSTALLEDSIZE=2723303
+WODOCINSTALLEDSIZE=604078
+DOWNLOADSIZE=810029
+REQDSKSPC=5720285

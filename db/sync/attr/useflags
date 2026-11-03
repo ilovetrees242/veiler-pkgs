@@ -1,0 +1,4 @@
+-RPATH --disable-rpath
+-NLS --disable-nls
++DEBUG --enable-debug
++GNULD --with-gnu-ld

@@ -1,0 +1,3 @@
++GNULD --with-gnu-ld
++X --with-x
+-RPATH --disable-rpath

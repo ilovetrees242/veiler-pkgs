@@ -1,0 +1,12 @@
+# Packaging
+MOONPKGNAME="packaging"
+MOONPKGVERSION="26.0"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://files.pythonhosted.org/packages/source/p/$MOONPKGNAME/$MOONPKG$EXTENSION"
+SHA256SUM="1742960aa7bf8f804dd4b3a3db3e94492f9cd93cf37422ebca506dd818d897a6"
+DESC="Provides core utilities for version handling, and system markers for python packaging"
+INSTALLEDSIZE=558767
+WODOCINSTALLEDSIZE=558767
+DOWNLOADSIZE=143416
+REQDSKSPC=883216

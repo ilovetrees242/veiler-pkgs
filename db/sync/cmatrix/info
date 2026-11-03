@@ -1,0 +1,12 @@
+# Cmatrix 
+MOONPKGNAME="cmatrix"
+MOONPKGVERSION="2.0"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://github.com/abishekvashok/cmatrix/archive/refs/tags/v$MOONPKGVERSION$EXTENSION"
+SHA256SUM="b4a472c477b188991df3d38c20e96520f97829b2a685dd4b42cb73cc09bbdd08"
+DESC="Provides very cool matrix text scrolling on a terminal screen"
+INSTALLEDSIZE=60347
+WODOCINSTALLEDSIZE=60347
+DOWNLOADSIZE=205630
+REQDSKSPC=779525

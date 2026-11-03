@@ -1,0 +1,11 @@
+# Coreutils ( Core Utilities )
+MOONPKGNAME="coreutils"
+MOONPKGVERSION="9.11"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://mirrors.hopbox.net/gnu/$MOONPKGNAME/$MOONPKG$EXTENSION"
+DESC="The coreutils package contains all tools and utilities necessary for any operating system's foundation"
+INSTALLEDSIZE=42725395
+WODOCINSTALLEDSIZE=41267589
+DOWNLOADSIZE=6562420
+REQDSKSPC=181460683

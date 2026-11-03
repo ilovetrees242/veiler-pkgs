@@ -1,0 +1,5 @@
++GNULD --with-gnu-ld
+-NLS --disable-nls
++SELINUX --enable-selinux
+-ACL --disable-acl
+-RPATH --disable-rpath

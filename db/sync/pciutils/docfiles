@@ -1,0 +1,5 @@
+/share/man/man8/pcilmr.8
+/share/man/man8/setpci.8
+/share/man/man8/lspci.8
+/share/man/man5/pci.ids.5
+/share/man/man7/pcilib.7

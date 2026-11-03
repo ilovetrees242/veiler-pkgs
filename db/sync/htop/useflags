@@ -1,0 +1,4 @@
++STATIC --enable-static
++SENSORS --enable-sensors
++DEBUG --enable-debug
++UNWIND --enable-unwind

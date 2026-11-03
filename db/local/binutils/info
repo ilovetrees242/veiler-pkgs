@@ -1,0 +1,11 @@
+# Binutils ( Binary Utilities )
+MOONPKGNAME="binutils"
+MOONPKGVERSION="2.46.0"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.xz"
+SRC="https://sourceware.org/pub/$MOONPKGNAME/releases/$MOONPKG$EXTENSION"
+DESC="Binutils contains various utilities for handling binary object files, like ld, as, etc."
+INSTALLEDSIZE=101041426
+WODOCINSTALLEDSIZE=100373252
+DOWNLOADSIZE=2848776
+REQDSKSPC=563860985

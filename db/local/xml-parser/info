@@ -1,0 +1,11 @@
+# Xml paser ( eXtensive markup language parser ) 
+MOONPKGNAME="xml-parser"
+MOONPKGVERSION="2.47"
+MOONPKG="$MOONPKGNAME-$MOONPKGVERSION"
+EXTENSION=".tar.gz"
+SRC="https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-$MOONPKGVERSION$EXTENSION"
+DESC="Expat based xml parser module for perl"
+INSTALLEDSIZE=494369
+WODOCINSTALLEDSIZE=433441
+DOWNLOADSIZE=279029
+REQDSKSPC=1808977

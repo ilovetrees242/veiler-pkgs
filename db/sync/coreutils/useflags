@@ -1,0 +1,7 @@
++GNULD --with-gnu-ld
++SYSTEMD --enable-systemd
+-RPATH --disable-rpath
+-ACL --disable-acl
+-ATTR --disable-xattr
+-SELINUX --without-selinux
+-NLS --disable-nls
